@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8" />
+    <title>Pollution Informatique</title>
+	<link href ="style.css" rel ="stylesheet">
+	<script src = "main.js"></script>
+  </head>
+
+  <body id="p3">
+		<div id="main">
+			<h1>L'informatique est-elle verte ?</h1>
+			<hr width="45%" size="4" noshade="noshade">
+			<br>
+			<p>
+			Ce site internet créé par Guillaume Juan n'a pas pour but de valoriser un point de vue mais
+			d'en partager les différents aspects . Il est également relié avec les deux pages suivantes:		
+			</p>
+			<li><a href="Mon_Projet.html">Mon_Projet</a></li>
+			<li><a href="PageInternet2.html">Page Internet 2</a></li>
+			<ol>
+				<h2><strong>
+				Ce que tu peux faire contre la pollution informatique
+				</strong></h2>
+			</ol>
+			<p>	
+			Lors de la construction des differents composants, 
+			de la pollution est emises a differentes echelles .	
+			</p>
+			<br>
+			<center>
+				<a href="https://www.youtube.com/watch?v=hyziGePiG8U&t=1s" target="_blank">Regarder la vidéo pour répondre au QCM</a>
+			</center>		
+			<br>
+			<br>
+			<h2><a class="one">Ceci est le QCM !</a></h2>
+			<form id = "quiz" name = "quiz">
+				<p class = "questions">L'informatique pollue-t-elle ? "1ère lettre en majuscule"</p>
+				<input id = "textbox" type = "text" name = "question1">
+				<p class = "questions">Combien d'emails sont envoyés par heure ?</p>
+				<input type = "radio" id = "mc" name = "question2" value = "10 millions">10 millions<br>
+				<input type = "radio" id = "mc" name = "question2" value = "10 milliards">10 milliards<br>
+				<p class = "questions">D'ou viennent les informations d'internet ?</p>
+				<input type = "radio" id = "mc" name = "question3" value = "Du cloud ou autrement dit des datacenters">Du cloud ou autrement dit des datacenters<br>
+				<input type = "radio" id = "mc" name = "question3" value = "Des satellites">Des satellites<br>
+				<p class = "questions">Que sont les datacenters ?</p>
+				<input type = "radio" id = "mc" name = "question4" value = "Des supermarchés">Des supermarchés<br>
+				<input type = "radio" id = "mc" name = "question4" value = "Des salles remplies de baies de stockage">Des salles remplies de baies de stockage<br>
+				<p class = "questions">Combien de tonnes de composants électroniques sont jettées chaque année ?</p>
+				<input type = "radio" id = "mc" name = "question5" value = "1 mégatonne">1 mégatonne<br>
+				<input type = "radio" id = "mc" name = "question5" value = "10 tonnes">10 tonnes<br>
+				<p class = "questions">Le hardware est-t-il écologique ?</p>
+				<input type = "radio" id = "mc" name = "question6" value = "Non, car sa production necessite une fabrication et des matieres premieres du monde entier">Non, car sa production necessite une fabrication et des matieres premieres du monde entier<br>
+				<input type = "radio" id = "mc" name = "question6" value = "Oui, car tout peux être reciclé">Oui, car tout peux être reciclé<br>
+				<p class = "questions">Est-il possible de réduire la pollution lors de la construction des matériaux?</p>
+				<input type = "radio" id = "mc" name = "question7" value = "Malheureusement, ce n'est pas assez rentable pour les constructeurs, malgré des efforts">Malheureusement, ce n'est pas assez rentable pour les constructeurs, malgré des efforts<br>
+				<input type = "radio" id = "mc" name = "question7" value = "Oui, beaucoup d'efforts sont realises pour cette étape">Oui, beaucoup d'efforts sont realises pour cette étape<br>
+				<p class = "questions">L'informatique peut-elle être utilisée pour réduire la pollution ?</p>
+				<input type = "radio" id = "mc" name = "question8" value = "Faux cela reviendrait à un cercle sans fin">Faux cela reviendrait à un cercle sans fin<br>
+				<input type = "radio" id = "mc" name = "question8" value = "Vrai en utilisant la domotique">Vrai en utilisant la domotique<br>
+				<p class = "questions">Qu'émet une « Rechercher » de Google ?</p>
+				<input type = "radio" id = "mc" name = "question9" value = "5 à 7 grammes de CO².">5 à 7 grammes de CO².<br>
+				<input type = "radio" id = "mc" name = "question9" value = "20 à 28 grammes de CO².">20 à 28 grammes de CO².<br>
+				<p class = "questions">Les gens ont-il connaissance de cette facon de polluer ?</p>
+				<input type = "radio" id = "mc" name = "question10" value = "C'est une évidence">C'est une évidence<br>
+				<input type = "radio" id = "mc" name = "question10" value = "C'est encore trop peu connue du grand public">C'est encore trop peu connue du grand public<br>			
+				<input id = "button" type = "button" value = "Vérifier mes réponses!" onclick = "check();">
+			</form>
+			<div id = "after_submit">
+				<p id = "number_correct"></p>
+				<p id = "message"></p>
+				<img id = "picture">
+			</div>
+	</body>
+</html>
+
+
